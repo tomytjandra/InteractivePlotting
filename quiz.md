@@ -1,4 +1,9 @@
-1. in ggplotly function `tooltip` parameter displays all the information from function?
+# Interactive Plotting Quiz
+___
+
+Hello, congratulations and thank you for taking part in the Interactive Plotting course. To test your abilities, let's do the quiz below.
+
+1. When hovering over the chart, which chart's informations were displayed in ggplotly's tooltip?
   - [ ] aes() 
   - [ ] plotlyOutput()
   - [ ] ggploly()
@@ -16,9 +21,9 @@
   - [ ] plotlyOutput()
   - [ ] plotOutput()
   
-4. Which of the following code is TRUE about render and output on shiny ?
+4. Which of the following code is correct about render and output to create plotly on shiny?
   - [ ] output$plot1 <- renderPlot({}) ; plotlyOutput("plot1")
-  - [ ] output$data1 <- renderDataTable({}) ; dataTableOutput("data1")
-  - [ ] selectInput(inputId = "input1", max = 25, min = 0, value = 12)
-  - [ ] server  <- fluidPage()
-  
+  - [ ] output$plotly1 <- renderPlotly({}) ; plotlyOutput("plot1")
+  - [ ] output$plot1 <- renderPlot({}) ; plotOutput("plot1")
+  - [ ] output$plot1 <- renderPlotly({}) ; plotlyOutput("plot1")
+ 
