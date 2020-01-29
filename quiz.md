@@ -9,13 +9,13 @@ Hello, congratulations and thank you for taking part in the Interactive Plotting
   - [ ] scale()
   - [ ] ggplot()
 
-2. Based on `sample.html` which one the correct flexdashboard layout?
+2. Based on `sample.html`, which one is the correct flexdashboard layout?
   - [ ] orientation: rows ; vertical_layout: fill
   - [ ] orientation: columns ; vertical_layout: fill
   - [ ] orientation: columns ; vertical_layout: scroll
   - [ ] orientation: rows ; vertical_layout: scroll
 
-3. Which input type that you will use for factor data type variable ?
+3. Which input type that you will use for categorical variable ?
   - [ ] selectInput()
   - [ ] sliderInput()
   - [ ] plotlyOutput()
