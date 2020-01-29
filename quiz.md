@@ -3,13 +3,13 @@ ___
 
 Hello, congratulations and thank you for taking part in the Interactive Plotting course. To test your abilities, let's do the quiz below.
 
-1. When hovering over the chart, which chart's informations were displayed in ggplotly's tooltip?
-  - [ ] aes() 
-  - [ ] plotlyOutput()
-  - [ ] ggploly()
+1. Which function that you will use to custom the tooltip information?
+  - [ ] text() 
+  - [ ] glue()
+  - [ ] scale()
   - [ ] ggplot()
 
-2. Base on `sample.html` which one the correct flexdashboard layout?
+2. Based on `sample.html` which one the correct flexdashboard layout?
   - [ ] orientation: rows ; vertical_layout: fill
   - [ ] orientation: columns ; vertical_layout: fill
   - [ ] orientation: columns ; vertical_layout: scroll
