@@ -15,7 +15,7 @@ Hello, congratulations and thank you for taking part in the Interactive Plotting
   - [ ] orientation: columns ; vertical_layout: scroll
   - [ ] orientation: rows ; vertical_layout: scroll
 
-3. Which input type that you will use for categorical variable ?
+3. Which input type would you use for categorical variable ?
   - [ ] selectInput()
   - [ ] sliderInput()
   - [ ] plotlyOutput()
