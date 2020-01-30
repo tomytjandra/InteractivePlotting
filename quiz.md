@@ -7,7 +7,7 @@ In this quiz, we will be using a Youtube dataset (youtube.csv) and sample.html. 
 Here the list of the column variables :
 
  * `trending_date`: Video trending date
- * `title`: title of video
+ * `title`: Title of video
  * `channel_title`: Name of the Youtube channel
  * `category_id`: Category of video
  * `publish_time`: Date the video was published
@@ -16,13 +16,13 @@ Here the list of the column variables :
  * `dislikes`: Number of video dislikes
  * `comment_count`: Number of video comment
 
-As a music enthusiast, you want to know 10 YouTube channels with the highest likes ratio.
+As a music enthusiast, you want to know 10 Youtube channels with the highest likes ratio.
 
 ```
  youtube %>% 
    ___(category_id == "Music") %>% 
    group_by(channel_title) %>% 
-   ___(like_ratio = mean(likes/views)) %>% 
+   ___(likes_ratio = mean(likes/views)) %>% 
    ___(desc(like_ratio)) %>% 
    ___(10)
 ```
@@ -39,13 +39,13 @@ As a music enthusiast, you want to know 10 YouTube channels with the highest lik
   - [ ] orientation: columns ; vertical_layout: scroll
   - [ ] orientation: rows ; vertical_layout: scroll
 
-3. Which input type would you use for categorical variable ?
+3. Which one from input type below is appropriate for categorical variable?
   - [ ] selectInput()
   - [ ] sliderInput()
   - [ ] plotlyOutput()
   - [ ] plotOutput()
   
-4. Which of the following code is correct about render and output to create plotly on shiny?
+4. Which of the following code is correctly paired between render and output in order to create plotly on shiny?
   - [ ] output$plot1 <- renderPlot({}) ; plotlyOutput("plot1")
   - [ ] output$plotly1 <- renderPlotly({}) ; plotlyOutput("plot1")
   - [ ] output$plot1 <- renderPlot({}) ; plotOutput("plot1")
